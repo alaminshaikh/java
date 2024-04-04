@@ -1,1 +1,13 @@
+COMPILE JAVA SOURCE to JAVA CLASS
 javac fileName.java
+
+RUN JAVA CLASS
+java fileName
+
+FOR JAR FILES 
+Add the path to the bin directory of your JDK installation to the list of paths. 
+For example, if JDK is installed in C:\Program Files\Java\jdk1.8.0_311, 
+you would add C:\Program Files\Java\jdk1.8.0_311\bin. (ENVIRONMENT VARIABLES)
+
+RUN JAR FILES (JAVA ARCHIVE)
+java -jar fileName.jar
