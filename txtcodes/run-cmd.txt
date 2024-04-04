@@ -23,10 +23,12 @@ JAR CREATE
 STEP 1
 Create manifext.txt in the current folder. In that file write this. (MyClass will be the fileName)
 Manifest-Version: 1.0
-Main-Class: fileName
+Main-Class: q18math4
+Created-By: 21.0.1 (Oracle Corporation)
 
 Manifest-Version: 1.0
 Main-Class: sum.Main
+Created-By: 21.0.1 (Oracle Corporation)
 
 Replace sum.Main with the fully qualified name of your main class. If your Main class is in a package called sum, and its name is Main, then the fully qualified name would be sum.Main.
 Save the file with the name MANIFEST.MF. Make sure to select "All Files" as the file type when saving to ensure it doesn't get saved as MANIFEST.MF.txt.
