@@ -11,3 +11,9 @@ you would add C:\Program Files\Java\jdk1.8.0_311\bin. (ENVIRONMENT VARIABLES)
 
 RUN JAR FILES (JAVA ARCHIVE)
 java -jar fileName.jar
+
+
+CREATE BATCH FILE TO RUN A PROGRAM
+@echo off
+java -cp . fileName
+pause
