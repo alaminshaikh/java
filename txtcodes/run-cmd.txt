@@ -17,3 +17,14 @@ CREATE BATCH FILE TO RUN A PROGRAM
 @echo off
 java -cp . fileName
 pause
+
+
+JAR CREATE
+STEP 1
+Create manifext.txt in the current folder. In that file write this. (MyClass will be the fileName)
+Main-Class: MyClass
+
+STEP 2
+Create jar, MyJar is the new name, fileName is the Name for class file that you have.
+jar cfm MyJar.jar manifest.txt fileName.class
+
