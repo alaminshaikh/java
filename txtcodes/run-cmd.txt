@@ -36,7 +36,7 @@ When you run the JAR file, it will use the specified main class.
 
 STEP 2
 Create jar, MyJar is the new name, fileName is the Name for class file that you have.
-jar cfm MyJar.jar manifest.txt fileName.class
+jar cfm MyJar.jar MANIFEST.MF fileName.class
 
 FOR MANY CLASS
 jar cfm MyJar.jar manifest.txt *.class
