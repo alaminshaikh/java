@@ -23,6 +23,9 @@ JAR CREATE
 STEP 1
 Create manifext.txt in the current folder. In that file write this. (MyClass will be the fileName)
 Manifest-Version: 1.0
+Main-Class: fileName
+
+Manifest-Version: 1.0
 Main-Class: sum.Main
 
 Replace sum.Main with the fully qualified name of your main class. If your Main class is in a package called sum, and its name is Main, then the fully qualified name would be sum.Main.
