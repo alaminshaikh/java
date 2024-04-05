@@ -18,6 +18,7 @@ CREATE BATCH FILE TO RUN A PROGRAM
 java -cp . fileName
 pause
 
+. means current directory & cp means classpath
 
 JAR CREATE
 STEP 1
