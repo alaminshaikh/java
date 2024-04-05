@@ -24,7 +24,7 @@ STEP 1
 Create manifext.txt in the current folder. In that file write this. (MyClass will be the fileName)
 Main-Class: hello
 write this in manifest.txt and give 1 Enter (New Line)
-*! new line insert is required*
+*1 new line insert is required*
 
 
 STEP 2
