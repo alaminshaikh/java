@@ -37,3 +37,4 @@ jar cfm hello.jar hey.txt hello.class
 
 FOR MANY CLASS
 jar cfm MyJar.jar manifest.txt *.class
+c means create, f means filename, m means manifest file, cvfm means show verbose output(extra info about operations)
