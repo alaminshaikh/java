@@ -4,7 +4,7 @@ set /p className=Enter the class name (without the .java extension):
 java -cp . %className%
 pause
 
-Run a fixed class 
+Run a fixed class here alamin is class name
 @echo off
 java -cp . alamin
 pause
