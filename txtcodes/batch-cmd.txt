@@ -19,3 +19,11 @@ If its a package
 @echo off
 java -cp . sum/sum
 pause
+
+to use custome title
+@echo off
+
+title "Custom Title"
+
+echo This is a Command Prompt window with a custom title.
+pause
