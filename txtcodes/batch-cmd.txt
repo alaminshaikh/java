@@ -10,6 +10,14 @@ set /p className=Enter the class name (without the .java extension):
 java -cp . %className%
 pause
 
+To run any class file and delete the other lines
+@echo off
+set /p "className=Enter the class name (without the .java extension): "
+cls
+java -cp . %className%
+pause
+
+
 Run a fixed class here alamin is class name
 @echo off
 java -cp . alamin
