@@ -33,3 +33,12 @@ pause
 title "Custom Title"
 echo This is a Command Prompt window with a custom title.
 pause
+
+
+//custom tile any class file
+@echo off
+set /p "className=Enter the class name (without the .java extension): "
+cls
+title %className%
+java -cp . %className%
+pause
