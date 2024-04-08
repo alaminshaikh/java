@@ -1,3 +1,9 @@
+JAVA BATCH FILE COMMANDS
+"echo off" means to clear other texts
+use "cls" to clear cmd
+use TAB button to cycle through file names
+Remember to remove .class before pressing enter
+
 create batch file to run any class in the same folder
 @echo off
 set /p className=Enter the class name (without the .java extension): 
@@ -9,3 +15,7 @@ Run a fixed class here alamin is class name
 java -cp . alamin
 pause
 
+If its a package
+@echo off
+java -cp . sum/sum
+pause
