@@ -4,13 +4,13 @@ use "cls" to clear cmd
 use TAB button to cycle through file names
 Remember to remove .class before pressing enter
 
-create batch file to run any class in the same folder
+//create batch file to run any class in the same folder
 @echo off
 set /p className=Enter the class name (without the .java extension): 
 java -cp . %className%
 pause
 
-To run any class file and delete the other lines
+//To run any class file and delete the other lines
 @echo off
 set /p "className=Enter the class name (without the .java extension): "
 cls
@@ -18,20 +18,18 @@ java -cp . %className%
 pause
 
 
-Run a fixed class here alamin is class name
+//Run a fixed class here alamin is class name
 @echo off
 java -cp . alamin
 pause
 
-If its a package
+//If its a package
 @echo off
 java -cp . sum/sum
 pause
 
-to use custome title
+//to use custome title in cmd
 @echo off
-
 title "Custom Title"
-
 echo This is a Command Prompt window with a custom title.
 pause
