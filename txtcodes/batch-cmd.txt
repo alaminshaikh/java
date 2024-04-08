@@ -42,3 +42,10 @@ cls
 title %className%
 java -cp . %className%
 pause
+
+@echo off
+set /p "className=Enter the class name (without the .java extension): "
+cls
+title JAVA PROGRAM - %className%
+java -cp . %className%
+pause
