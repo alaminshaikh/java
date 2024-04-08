@@ -1,0 +1,11 @@
+create batch file to run any class in the same folder
+@echo off
+set /p className=Enter the class name (without the .java extension): 
+java -cp . %className%
+pause
+
+Run a fixed class 
+@echo off
+java -cp . alamin
+pause
+
