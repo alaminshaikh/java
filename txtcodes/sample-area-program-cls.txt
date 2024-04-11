@@ -1,0 +1,75 @@
+import java.util.Scanner;
+import java.io.IOException;
+
+public class area {
+    @SuppressWarnings("deprecation")
+    public static void main(String[] args) {
+        String c;
+        Scanner a = new Scanner(System.in);
+        do {
+            try {
+                if (System.getProperty("os.name").contains("Windows"))
+                    new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+                else
+                    Runtime.getRuntime().exec("clear");
+            } catch (IOException | InterruptedException ex) {
+                System.out.println("An error occurred while clearing the screen:");
+                ex.printStackTrace();
+            }
+            System.out.println("Program to calculate area");
+            System.out.println("1. Area of Square");
+            System.out.println("2. Area of Rectangle");
+            System.out.println("3. Area of Circle");
+            System.out.println("4. Area of Triangle");
+            System.out.print("\nSelect an option : ");
+            int choice = a.nextInt();
+            switch (choice) {
+                case 1 -> {
+                    System.out.print("- Square\n");
+                    System.out.print("Enter Side : ");
+                    double side = a.nextDouble();
+                    // a.nextLine();
+                    double area = side * side;
+                    System.out.println("Area of Square is " + area);
+                }
+
+                case 2 -> {
+                    System.out.print("- Rectangle\n");
+                    System.out.print("Enter Length : ");
+                    double length = a.nextDouble();
+                    System.out.print("Enter breadth : ");
+                    double breadth = a.nextDouble();
+                    double area = length * breadth;
+                    System.out.println("Area of Rectangle is " + area);
+                }
+
+                case 4 -> {
+                    System.out.print("- Triangle\n");
+                    System.out.print("Enter Base of Triangle : ");
+                    double base = a.nextDouble();
+                    System.out.print("Enter height of Triangle : ");
+                    double height = a.nextDouble();
+                    double area = (base * height) / 2;
+                    System.out.println("Area of Triangle is " + area);
+                }
+
+                case 3 -> {
+                    System.out.print("- Circle\n");
+                    System.out.print("Enter Radius of Circle : ");
+                    double radius = a.nextDouble();
+                    double area = (22*radius*radius)/7;
+                    System.out.println("Area of Circle is " + area);
+                }
+
+                default -> {
+                    System.out.println("Please enter a valid choice");
+                }
+            }
+            a.nextLine();
+            System.out.print("\nDo you want to continue? Press Y/N : ");
+            c = a.nextLine();
+        } while (c.equalsIgnoreCase("y"));
+        System.out.println("Thank you for using this Program");
+        a.close();
+    }
+}
