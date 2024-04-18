@@ -1,0 +1,53 @@
+public class VariableMaxMin{
+    public static void main(String[] args) {
+        System.out.println("Byte :");
+        System.out.println("Max value :"+Byte.MAX_VALUE);
+        System.out.println("Max value :"+Byte.MIN_VALUE);
+        System.out.println("Size :"+Byte.SIZE);
+        System.out.println();
+
+        System.out.println("Short :");
+        System.out.println("Max value :"+Short.MAX_VALUE);
+        System.out.println("Max value :"+Short.MIN_VALUE);
+        System.out.println("Size :"+Short.SIZE);
+        System.out.println();
+
+        System.out.println("Integer :");
+        System.out.println("Max value :"+Integer.MAX_VALUE);
+        System.out.println("Max value :"+Integer.MIN_VALUE);
+        System.out.println("Size :"+Integer.SIZE);
+        System.out.println("Type :"+Integer.TYPE);
+        System.out.println();
+
+        System.out.println("Long :");
+        System.out.println("Max value :"+Long.MAX_VALUE);
+        System.out.println("Max value :"+Long.MIN_VALUE);
+        System.out.println("Size :"+Long.SIZE);
+        System.out.println("Type :"+Long.TYPE);
+        System.out.println();
+
+        System.out.println("Max value :"+Float.MAX_VALUE);
+        System.out.println("Max value :"+Float.MIN_VALUE);
+        System.out.println("Size :"+Float.SIZE);
+        System.out.println("Type :"+Float.TYPE);
+        System.out.println();
+
+        System.out.println("Max value :"+Double.MAX_VALUE);
+        System.out.println("Max value :"+Double.MIN_VALUE);
+        System.out.println("Size :"+Double.SIZE);
+        System.out.println("Type :"+Double.TYPE);
+        System.out.println();
+
+        System.out.println("Max value :"+Character.MAX_VALUE);
+        System.out.println("Max value :"+Character.MIN_VALUE);
+        System.out.println("Size :"+Character.SIZE);
+        System.out.println("Type :"+Character.TYPE);
+        System.out.println();
+
+        // System.out.println("Max value :"+Boolean.MAX_VALUE);
+        // System.out.println("Max value :"+Boolean.MIN_VALUE);
+        // System.out.println("Size :"+Boolean.SIZE);
+        System.out.println("Type :"+Boolean.TYPE);
+        System.out.println();
+    }
+}
