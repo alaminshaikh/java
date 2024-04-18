@@ -1,0 +1,18 @@
+public class charOperation {
+    public static void main(String[] args) {
+        char a = 'S';
+        System.out.println(a);
+        char b = ++a;
+        char c = 120;
+        char d = 65;
+        int e = (int) a;
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+
+        for(int i=65; i<=90; i++){
+            System.out.println((char) i);
+        }
+    }
+}
